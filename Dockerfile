@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:latest
 MAINTAINER jburks725@gmail.com
 
 # make sure the package repository is up to date
