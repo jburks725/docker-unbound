@@ -1,4 +1,4 @@
 docker-unbound
 ==============
 
-A DNS caching server in Docker
+An [Unbound](http://unbound.net/index.html) DNS caching server in Docker.
