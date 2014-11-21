@@ -5,7 +5,7 @@ MAINTAINER jburks725@gmail.com
 RUN apt-get update && \
     apt-get install -y unbound
 
-ADD cache.conf /etc/unbound/unbound.conf.d/cache.conf
+COPY cache.conf /etc/unbound/unbound.conf.d/cache.conf
 
 EXPOSE 53/udp
 
